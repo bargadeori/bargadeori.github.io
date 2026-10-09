@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barga Deori | Assistant Professor & TPO, Dhemaji Engineering College</title>
+<meta name="description" content="Barga Deori, Assistant Professor in CSE and Training & Placement Officer at Dhemaji Engineering College, Govt. of Assam.">
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --card: #ffffff;
+    --text: #1f2933;
+    --muted: #5f6b7a;
+    --accent: #1b5e9b;
+    --accent-soft: #e6f0fa;
+    --border: #e3e7ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1419;
+      --card: #171e26;
+      --text: #e6eaef;
+      --muted: #9aa5b1;
+      --accent: #6cb2f0;
+      --accent-soft: #1c2a3a;
+      --border: #27313c;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+  }
+  nav .wrap { display: flex; gap: 20px; overflow-x: auto; padding: 12px 20px; white-space: nowrap; }
+  nav a { color: var(--muted); font-size: 0.92rem; font-weight: 500; }
+  nav a:hover { color: var(--accent); text-decoration: none; }
+
+  header.hero { padding: 64px 0 40px; }
+  .hero h1 { font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.2; }
+  .hero .role { font-size: 1.15rem; color: var(--accent); font-weight: 600; margin-top: 6px; }
+  .hero .loc { color: var(--muted); margin-top: 4px; }
+  .hero p.lead { max-width: 720px; margin-top: 20px; font-size: 1.05rem; color: var(--muted); }
+  .contact { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+  .btn {
+    display: inline-block; padding: 9px 16px; border-radius: 8px;
+    border: 1px solid var(--accent); font-size: 0.92rem; font-weight: 500;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); }
+  .btn.primary:hover { text-decoration: none; opacity: 0.9; }
+  .btn:hover { text-decoration: none; background: var(--accent-soft); }
+  .btn.primary:hover { background: var(--accent); }
+
+  section { padding: 36px 0; }
+  section h2 {
+    font-size: 1.5rem; margin-bottom: 20px;
+    padding-bottom: 8px; border-bottom: 2px solid var(--accent-soft);
+  }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 22px; margin-bottom: 16px;
+  }
+  .card h3 { font-size: 1.1rem; }
+  .card .org { color: var(--accent); font-weight: 500; }
+  .meta { color: var(--muted); font-size: 0.88rem; margin: 2px 0 10px; }
+  .card ul { margin: 8px 0 0 20px; }
+  .card li { margin-bottom: 4px; }
+  .card p { margin-top: 6px; }
+
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .grid .card { margin-bottom: 0; }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag {
+    background: var(--accent-soft); color: var(--accent);
+    padding: 4px 12px; border-radius: 999px; font-size: 0.85rem; font-weight: 500;
+  }
+  .tech { margin-top: 10px; font-size: 0.88rem; color: var(--muted); }
+  .tech strong { color: var(--text); }
+  h4 { font-size: 0.95rem; margin: 14px 0 4px; }
+
+  footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 32px 0 48px; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#publications">Publications</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Barga Deori</h1>
+    <div class="role">Assistant Professor &amp; Training and Placement Officer</div>
+    <div class="loc">Dhemaji Engineering College · Govt. of Assam · Dhemaji, Assam, India</div>
+    <p class="lead">
+      Assistant Professor in Computer Science and Engineering, dedicated to high-quality education and
+      industry-oriented skills. Over a decade of software engineering experience across CDAC, Tech Mahindra
+      and academia, now preparing students for successful careers in the tech industry.
+    </p>
+    <div class="contact">
+      <a class="btn primary" href="mailto:bargadeori@gmail.com">Email me</a>
+      <a class="btn" href="https://www.linkedin.com/in/bargadeori-459bb630" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://tpc.dec.ac.in" target="_blank" rel="noopener">Training &amp; Placement Cell</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="card">
+      <p>
+        As an Assistant Professor in the Department of Computer Science and Engineering, my focus is on creating
+        an engaging learning environment, promoting academic excellence, and preparing students for the tech industry.
+      </p>
+      <h4>Key responsibilities</h4>
+      <ul>
+        <li><strong>Teaching and mentoring:</strong> lectures, tutorials and mentoring in Computer Science and Engineering.</li>
+        <li><strong>Curriculum development:</strong> keeping course curricula relevant and aligned with industry.</li>
+        <li><strong>Industry-oriented skills:</strong> integrating current trends, tools and technologies to improve employability.</li>
+        <li><strong>Research and development:</strong> research, publications and conference participation.</li>
+        <li><strong>Student development:</strong> personalised guidance and feedback on academic and professional growth.</li>
+      </ul>
+      <h4>Goals</h4>
+      <ul>
+        <li>Provide high-quality education and training to students</li>
+        <li>Foster industry-oriented skills and knowledge</li>
+        <li>Encourage innovation, research and entrepreneurship</li>
+        <li>Build strong relationships with industry partners and academia</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="card">
+      <h3>Assistant Professor, CSE</h3>
+      <div class="org">Dhemaji Engineering College (DEC)</div>
+      <div class="meta">August 2024 – Present · Dhemaji, Assam</div>
+      <p>Teaching, mentoring, curriculum development, research and student development in the Department of Computer Science and Engineering.</p>
+    </div>
+
+    <div class="card">
+      <h3>Faculty In-Charge, Training and Placement Cell</h3>
+      <div class="org">Dhemaji Engineering College</div>
+      <div class="meta">September 2024 – Present · Dhemaji, Assam</div>
+      <p>Oversee and coordinate placement activities, industry interactions and training programs to improve student employability.</p>
+      <ul>
+        <li>Placement coordination: registration, counselling and selection</li>
+        <li>Industry partnerships with recruiters and alumni</li>
+        <li>Training sessions, workshops and seminars</li>
+        <li>Guiding and mentoring students for the job market</li>
+        <li>Maintaining placement statistics and student feedback records</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Senior Software Engineer</h3>
+      <div class="org">Tech Mahindra</div>
+      <div class="meta">October 2023 – July 2024 · Kolkata, West Bengal</div>
+      <ul>
+        <li>Worked with cross-functional teams on seamless integration with other components and systems.</li>
+        <li>Design and development using Spring Boot.</li>
+        <li>Unit and integration testing to build a fault-tolerant application.</li>
+        <li>Real-time data streaming pipelines with Kafka for high-volume data.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Team Lead</h3>
+      <div class="org">Tech Mahindra</div>
+      <div class="meta">February 2022 – September 2023 · Hyderabad, Telangana</div>
+      <ul>
+        <li>Gathered requirements from cross-functional teams and delivered integration solutions.</li>
+        <li>Designed and implemented Spring Boot microservices, improving response time and reliability.</li>
+        <li>Unit, integration and end-to-end testing with 95% code coverage.</li>
+        <li>Azure Data Factory and Azure Functions for data migration at regular intervals.</li>
+        <li>Kafka real-time data streaming pipelines.</li>
+      </ul>
+      <div class="tech"><strong>Technologies:</strong> Java 8, Spring MVC, Spring Boot, Microservices, Docker, Kubernetes, IntelliJ IDEA, Postman, REST APIs, Azure, GitHub, Postgres, iBATIS, Azure Data Factory, Azure Functions, MongoDB</div>
+    </div>
+
+    <div class="card">
+      <h3>Team Lead</h3>
+      <div class="org">CDAC India</div>
+      <div class="meta">June 2015 – February 2022 · Silchar Area</div>
+      <ul>
+        <li><strong>Project management:</strong> proposal development, client meetings, requirement collection and analysis</li>
+        <li><strong>Technical:</strong> system design, development, integration, API development, UAT, deployment, maintenance and troubleshooting</li>
+        <li><strong>Quality assurance:</strong> Safe to Host certification, testing and quality control</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Teaching Assistant</h3>
+      <div class="org">National Institute of Technology Silchar</div>
+      <div class="meta">January 2015 – May 2015 · Silchar Area</div>
+      <p>Taught undergraduate theory and lab classes, helped manage the institute's digital infrastructure (LMS, MIS, SIS) and contributed to the NBA accreditation process.</p>
+    </div>
+
+    <div class="card">
+      <h3>Software Developer</h3>
+      <div class="org">ABH Software</div>
+      <div class="meta">November 2014 – December 2014 · Guwahati Area</div>
+      <p>Web application development, Google Maps API integration, Power BI data visualisation, Android apps and SOAP web services.</p>
+    </div>
+
+    <div class="card">
+      <h3>Trainee</h3>
+      <div class="org">Bharat Sanchar Nigam Limited</div>
+      <div class="meta">May 2011 – July 2011 · Guwahati Area</div>
+      <p>Network communication and protocols, routing, satellite networks, 2G/3G technology and landline technology.</p>
+    </div>
+
+    <div class="card">
+      <h3>Web Trainee</h3>
+      <div class="org">Algox Technology India</div>
+      <div class="meta">October 2010 – November 2010 · Agartala Area</div>
+      <p>PHP, Web 2.0, MySQL, Android technology and AJAX.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Project Highlights (CDAC)</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>e-HRMIS</h3>
+        <div class="meta">Team Lead</div>
+        <p>Advanced Human Resource Management Information System with analytics capabilities.</p>
+        <div class="tech">Java Struts 2.0, JSP, JSON, PostgreSQL, Hibernate ORM, JasperReports, BIRT</div>
+      </div>
+      <div class="card">
+        <h3>JKPWDOMS</h3>
+        <div class="meta">Senior Developer</div>
+        <p>Online management system for the Jammu &amp; Kashmir Public Works Department.</p>
+        <div class="tech">Java Struts 2.0, JSP, JSON, PostgreSQL, Hibernate ORM, JasperReports, BIRT, OpenStreetMap, Leaflet JS</div>
+      </div>
+      <div class="card">
+        <h3>NAADI</h3>
+        <div class="meta">Android and Backend Developer</div>
+        <p>National Analytical Platform for COVID-19 Tracking and Containment: mobile app and backend platform.</p>
+        <div class="tech">Android Studio, Firebase, PostgreSQL, Postman, Google Play Store, Google Cloud APIs, IndexedDB</div>
+      </div>
+      <div class="card">
+        <h3>DVDMS</h3>
+        <div class="meta">Team Lead</div>
+        <p>Drug and Vaccine Distribution Management System, with analysis of medicine consumption patterns.</p>
+        <div class="tech">Java Struts 2.0, JSP, JSON, PostgreSQL, BIRT Reporting Tool</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <div class="card">
+      <ul>
+        <li>A Survey on Moving Object Tracking in Video</li>
+        <li>A Multilingual Dataset (MultiMWP) and Benchmark for Math Word Problem Generation</li>
+        <li>INTRUSAFE: An Intelligent ML Based Intrusion Detection System</li>
+        <li>Extended Kalman filtering based Multiple Object tracking in image sequences</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills, Certifications &amp; Languages</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Top skills</h3>
+        <div class="tags" style="margin-top:10px">
+          <span class="tag">Artificial Intelligence (AI)</span>
+          <span class="tag">Video Processing</span>
+          <span class="tag">Higher Education Administration</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Certifications</h3>
+        <ul>
+          <li>Certificate of Completion: CSS Fundamentals</li>
+          <li>Certificate of Completion: HTML Fundamentals</li>
+          <li>Python 3 Tutorial</li>
+          <li>Neo4j Fundamentals</li>
+          <li>C++ Tutorial course</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Languages</h3>
+        <ul>
+          <li>Assamese: Professional Working</li>
+          <li>English: Full Professional</li>
+          <li>Hindi: Full Professional</li>
+          <li>Bengali: Professional Working</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <h3>Master of Technology (M.Tech.), Computer Science and Engineering</h3>
+      <div class="org">National Institute of Technology Silchar</div>
+      <div class="meta">2012 – 2014</div>
+    </div>
+    <div class="card">
+      <h3>Bachelor of Technology (B.Tech.), Information Technology</h3>
+      <div class="org">Assam (Central) University</div>
+      <div class="meta">2008 – 2012</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <ul style="list-style:none; margin-left:0">
+        <li><strong>Location:</strong> Dhemaji, Assam – 787057</li>
+        <li><strong>Mobile:</strong> <a href="tel:+917002567296">7002567296</a></li>
+        <li><strong>Email:</strong> <a href="mailto:bargadeori@gmail.com">bargadeori@gmail.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/bargadeori-459bb630" target="_blank" rel="noopener">linkedin.com/in/bargadeori-459bb630</a></li>
+        <li><strong>Website:</strong> <a href="https://tpc.dec.ac.in" target="_blank" rel="noopener">tpc.dec.ac.in</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">© <span id="yr">2026</span> Barga Deori</div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
